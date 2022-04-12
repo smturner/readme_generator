@@ -10,10 +10,10 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
   return `# ${data.title}
-  ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue);
+  ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue)
 
   ## Description
   ${data.description}

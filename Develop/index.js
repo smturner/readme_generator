@@ -28,7 +28,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: ['Apache 1.0', 'GNU GeneralPublic v3.0', 'MIT', 'BSD 2-Clause "Simplified"', 'BSD 3-Clause "New" or "Revised"', 'Boost Software 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public 2.0', 'GNU Affero General Public v3.0', 'GNU General Public v2.0', 'GNU Lesser General Public v2.1', 'Mozilla Public 2.0', 'The Unlicense'],
+        choices: [ 'MIT','Apache 1.0', 'GNU GeneralPublic v3.0', 'BSD 2-Clause "Simplified"', 'BSD 3-Clause "New" or "Revised"', 'Boost Software 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public 2.0', 'GNU Affero General Public v3.0', 'GNU General Public v2.0', 'GNU Lesser General Public v2.1', 'Mozilla Public 2.0', 'The Unlicense'],
     },
     {
         type: 'input',
@@ -58,41 +58,33 @@ inquirer
         if(err){
             console.log(err)
         }else {
-            console.log('Created new README.md file!')
+            console.log('Creating a new README.md file!')
         }
     })
 })
 
-const generateMarkdown = ({github}) => 
-    `# ${data.title}
-    ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue);
-  
-    ## Description
-    ${data.description}
-  
-    ## Table of Contents
-  
-    ## Installation
-    ${data.installation}
-  
-    ## Usage
-    ${usage}
-  
-    ## Contributing
-    ${contributing}
-  
-  
-    ## License
-    ${license}
-  
-    ## Tests
-    ${tests}
-  
-    ## Questions
-    If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
-  
-    `
-  
+const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) => 
+// let finalMarkdown = 
+` # ${title} 
+![GitHub license](https://img.shields.io/badge/license-${license}-blue)  
+## Description
+${description}  
+## Table of Contents  
+
+## Installation
+${installation}  
+## Usage
+${usage}  
+## Contributing
+${contributing}  
+## License
+${license}  
+## Tests
+${tests}  
+## Questions  
+If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.`
+    // return finalMarkdown
+
 // const generateREADME= ({github })
     // const readMePageContent = questions(answers);
 
