@@ -64,26 +64,39 @@ inquirer
 })
 
 const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) => 
-// let finalMarkdown = 
 ` # ${title} 
+
 ![GitHub license](https://img.shields.io/badge/license-${license}-blue)  
+
 ## Description
 ${description}  
-## Table of Contents  
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)  
 
 ## Installation
 ${installation}  
+
 ## Usage
 ${usage}  
+
 ## Contributing
 ${contributing}  
-## License
-${license}  
+
 ## Tests
 ${tests}  
+
 ## Questions  
-If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.`
-    // return finalMarkdown
+If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
+
+## License
+${license}  `
+   
 
 // const generateREADME= ({github })
     // const readMePageContent = questions(answers);
