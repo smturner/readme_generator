@@ -1,19 +1,10 @@
 //Packages required for function
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown= require('./utils/generateMarkdown');
 
 inquirer
 .prompt ([
-    {
-        type: 'input',
-        name: 'github',
-        message: 'What is your GitHub username?'
-    },
-    {
-        type: 'input',
-        name: 'email',
-        message: 'What is your email address?'
-    },
     {
         type: 'input',
         name: 'title',
@@ -24,12 +15,7 @@ inquirer
         name: 'description',
         message: 'Please write a short description of your project'
     },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'What kind of license should your project have?',
-        choices: [ 'MIT','Apache 1.0', 'GNU GeneralPublic v3.0', 'BSD 2-Clause "Simplified"', 'BSD 3-Clause "New" or "Revised"', 'Boost Software 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public 2.0', 'GNU Affero General Public v3.0', 'GNU General Public v2.0', 'GNU Lesser General Public v2.1', 'Mozilla Public 2.0', 'The Unlicense'],
-    },
+    
     {
         type: 'input',
         name: 'installation',
@@ -48,7 +34,23 @@ inquirer
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo?'
+        message: 'Who contributed to this repo?'
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?'
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'What kind of license should your project have?',
+        choices: [ 'MIT','Apache', 'GNU-GPL-3', 'none' ],
     },
 ])
 
@@ -65,8 +67,6 @@ inquirer
 
 const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) => 
 ` # ${title} 
-
-![GitHub license](https://img.shields.io/badge/license-${license}-blue)  
 
 ## Description
 ${description}  
@@ -95,6 +95,7 @@ ${tests}
 If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
 
 ## License
+Copyright (c) [year] [Sarah Turner]
 ${license}  `
    
 
@@ -110,7 +111,7 @@ ${license}  `
 // TODO: Create a function to initialize app
 // function init() { }
 
-// // Function call to initialize app
+// Function call to initialize app
 // init();
 
 

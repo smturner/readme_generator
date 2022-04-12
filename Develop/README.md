@@ -1,9 +1,9 @@
- # lsdkjf 
+ # cooooool 
 
-![GitHub license](https://img.shields.io/badge/license-MIT-blue)  
+![GitHub license](https://img.shields.io/badge/license-GNU-GPL-3-blue)  
 
 ## Description
-sldkfj  
+sldkjflj  
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,19 +14,20 @@ sldkfj
 - [License](#license)  
 
 ## Installation
-sldkjf  
+sjjf  
 
 ## Usage
-sldkfj  
+jfjf  
 
 ## Contributing
-sldkjf  
+yes  
 
 ## Tests
-ldksfj  
+jfjfj  
 
 ## Questions  
-If you have any questions about this project, please contact me directly at lskdjf. You can view more of my projects at https://github.com/skdjf.
+If you have any questions about this project, please contact me directly at sarah. You can view more of my projects at https://github.com/sarah.
 
 ## License
-MIT  
+Copyright (c) [year] [Sarah Turner]
+GNU-GPL-3  
