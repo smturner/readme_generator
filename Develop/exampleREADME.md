@@ -14,9 +14,7 @@ This project was created to easily generate a high-quality README.md file. Using
 - [License](#license)  
 
 ## Installation
-To generate your own README  `git clone`the repo down to your local machine and make sure you have Node.js installed on your local.  
-
-This application requires file system to generate the new readme file and for the user to install inquirer package. This can be done by running `npm i inquirer` in your integrated terminal.
+To generate your own README `git clone` the repo down to your local machine and make sure you have Node.js installed on your local.  
 
 ## Usage
 Make sure that you are have node.js installed. Open this up in your integrated terminal and type node index.js. It should prompt you through questions to answer. When you are done a completed README.md file with your answers will generate.  

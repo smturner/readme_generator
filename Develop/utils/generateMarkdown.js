@@ -68,12 +68,14 @@ ${contributing}
 ${tests}  
 
 ## Questions  
-If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
+If you have any questions about this project, please email me directly at ${email}.
+
+You can view more of my projects at https://github.com/${github}.
 
 ## License
 Copyright (c) 2022 Sarah Turner
 
-This application is licensed by ${license}. For more information, visit ${badgesURL}.  `
+This application is licensed by ${license}. For more information on this license, visit ${badgesURL}.  `
 
 return readMePageContent
 }
