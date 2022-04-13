@@ -79,5 +79,6 @@ This application is licensed by ${license}. For more information on this license
 
 return readMePageContent
 }
+
 //exports function generateMarkdown to index.js
 module.exports = generateMarkdown;

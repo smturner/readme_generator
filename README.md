@@ -19,13 +19,15 @@ To generate your own README  `git clone`the repo down to your local machine and 
 This application requires file system to generate the new readme file and for the user to install inquirer package. This can be done by running `npm i inquirer` in your integrated terminal.
 
 ## Usage
-Make sure that you are have node.js installed. Open this up in your integrated terminal and type node index.js. It should prompt you through questions to answer. When you are done a completed README.md file with your answers will generate.  
+Once this app is open, and you have installed the required packages, open up your integrated terminal and type node index.js. You will be prompted through questions to answer about your project. If you successfully answered all of the questions you will see 'Creating a new README.md file!' and a completed README.md file will now be in your develop folder.  
 
-## Contributing
-Sarah Turner  
+![ReadMe Gif](/develop/utils/READMEGenerator.gif)
 
-## Tests
-None  
+<!-- <img src="READMEGenerator.gif"><br>
+
+Or you can view the -->
+
+
 
 ## Questions  
 If you have any questions about this project, please email me directly at turnersarah228@gmail.com.
