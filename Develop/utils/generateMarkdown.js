@@ -22,13 +22,13 @@ function renderLicenseLink(license) {
   let badgesURL;
   switch(license) {
     case 'MIT' :
-      badgesURL= "(https://opensource.org/licenses/MIT)";
+      badgesURL= '<a href= "(https://opensource.org/licenses/MIT)">Open Source MIT</a>';
       break;
       case 'Apache' :
-        badgesURL= "(https://opensource.org/licenses/Apache-2.0)";
+        badgesURL= '<a href= "(https://opensource.org/licenses/Apache-2.0)">Open Source Apache</a>';
       break;
       case 'GNU-3' :
-        badgesURL="(https://www.gnu.org/licenses/gpl-3.0)";
+        badgesURL='<a href= "(https://www.gnu.org/licenses/gpl-3.0)"></a>';
         break;
         default:
           badgesURL='';
