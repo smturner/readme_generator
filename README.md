@@ -23,16 +23,16 @@ Once this app is open, and you have installed the required packages, open up you
 
 ![ReadMe Gif](/develop/utils/READMEGenerator.gif)
 
-<!-- <img src="READMEGenerator.gif"><br>
-
-Or you can view the -->
-
-
+Or you can view the video here: <a href= "https://drive.google.com/file/d/1YCMTSfqpxSXkJn-dobnXGZQzGiM1APA4/view"> Screencastify Link </a>
 
 ## Questions  
 If you have any questions about this project, please email me directly at turnersarah228@gmail.com.
 
 You can view more of my projects at https://github.com/smturner.
+
+## Links to Application
+
+<a href="https://github.com/smturner/readme_generator">GitHub link </a>
 
 ## License
 Copyright (c) 2022 Sarah Turner
