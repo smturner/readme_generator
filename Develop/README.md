@@ -1,9 +1,9 @@
- # cooooool 
+ # d  
 
-![GitHub license](https://img.shields.io/badge/license-GNU-GPL-3-blue)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Description
-sldkjflj  
+f  
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,20 +14,20 @@ sldkjflj
 - [License](#license)  
 
 ## Installation
-sjjf  
+d  
 
 ## Usage
-jfjf  
+d  
 
 ## Contributing
-yes  
+f  
 
 ## Tests
-jfjfj  
+f  
 
 ## Questions  
-If you have any questions about this project, please contact me directly at sarah. You can view more of my projects at https://github.com/sarah.
+If you have any questions about this project, please contact me directly at f. You can view more of my projects at https://github.com/d.
 
 ## License
-Copyright (c) [year] [Sarah Turner]
-GNU-GPL-3  
+Copyright (c) 2022 Sarah Turner
+MIT for more information, visit (https://opensource.org/licenses/MIT)  

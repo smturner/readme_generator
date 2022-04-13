@@ -65,38 +65,38 @@ inquirer
     })
 })
 
-const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) => 
-` # ${title} 
+// const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) => 
+// ` # ${title} 
 
-## Description
-${description}  
+// ## Description
+// ${description}  
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-- [License](#license)  
+// ## Table of Contents
+// - [Installation](#installation)
+// - [Usage](#usage)
+// - [Contributing](#contributing)
+// - [Tests](#tests)
+// - [Questions](#questions)
+// - [License](#license)  
 
-## Installation
-${installation}  
+// ## Installation
+// ${installation}  
 
-## Usage
-${usage}  
+// ## Usage
+// ${usage}  
 
-## Contributing
-${contributing}  
+// ## Contributing
+// ${contributing}  
 
-## Tests
-${tests}  
+// ## Tests
+// ${tests}  
 
-## Questions  
-If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
+// ## Questions  
+// If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
 
-## License
-Copyright (c) [year] [Sarah Turner]
-${license}  `
+// ## License
+// Copyright (c) [year] [Sarah Turner]
+// ${license}  `
    
 
 // const generateREADME= ({github })

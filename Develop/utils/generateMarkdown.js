@@ -4,11 +4,11 @@ function renderLicenseBadge(license) {
  let badges;
  switch (license) {
    case 'MIT': 
-    badges="https://img.shields.io/badge/License-MIT-yellow.svg";
+    badges= "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   //  licenseURL: "https://opensource.org/licenses/MIT"
     break;
     case 'Apache' :
-      badges= '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+      badges= '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
       break;
     case 'GNU-GPL-3':
       badges="[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
@@ -16,46 +16,63 @@ function renderLicenseBadge(license) {
     default:
     badges= '';
    }
+   return badges;
   }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  let badgesURL;
+  switch(license) {
+    case 'MIT' :
+      badgesURL= "(https://opensource.org/licenses/MIT)"
+  }
+  return badgesURL
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// // TODO: Create a function to generate markdown for README
-// const generateMarkdown = data => {
-//   return `# ${data.title}
-//   ![GitHub license](https://img.shields.io/badge/license-${data.license}-blue)
+// function that creates all the layout for the README file
+const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) =>   {
+let badges= renderLicenseBadge(license);
+let badgesURL= renderLicenseLink(license)
+let readMePageContent = ` # ${title}  
 
-//   ## Description
-//   ${data.description}
+${badges}  
 
-//   ## Table of Contents
+## Description
+${description}  
 
-//   ## Installation
-//   ${data.installation}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)  
 
-//   ## Usage
-//   ${data.usage}
+## Installation
+${installation}  
 
-//   ## Contributing
-//   ${data.contributing}
+## Usage
+${usage}  
 
+## Contributing
+${contributing}  
 
-//   ## License
-//   ${data.license}
+## Tests
+${tests}  
 
-//   ## Tests
-//   ${data.tests}
+## Questions  
+If you have any questions about this project, please contact me directly at ${email}. You can view more of my projects at https://github.com/${github}.
 
-//   ## Questions
-//   If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+## License
+Copyright (c) 2022 Sarah Turner
+${license} for more information, visit ${badgesURL}  `
 
-//   `;
-// }
-
-// module.exports = generateMarkdown;
+return readMePageContent
+}
+//exports function generateMarkdown to index.js
+module.exports = generateMarkdown;
