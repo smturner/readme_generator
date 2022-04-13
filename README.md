@@ -21,7 +21,7 @@ This application requires file system to generate the new readme file and for th
 ## Usage
 Once this app is open, and you have installed the required packages, open up your integrated terminal and type node index.js. You will be prompted through questions to answer about your project. If you successfully answered all of the questions you will see 'Creating a new README.md file!' and a completed README.md file will now be in your develop folder.  
 
-![ReadMe Gif](./develop/utils/READMEGenerator.gif)
+![ReadMe Gif](./Develop/utils/READMEGenerator.gif)
 
 Or you can view the video here: <a href= "https://drive.google.com/file/d/1YCMTSfqpxSXkJn-dobnXGZQzGiM1APA4/view"> Screencastify Link </a>
 
