@@ -28,7 +28,7 @@ function renderLicenseLink(license) {
         badgesURL= '<a href= "(https://opensource.org/licenses/Apache-2.0)">Open Source Apache</a>';
       break;
       case 'GNU-3' :
-        badgesURL='<a href= "(https://www.gnu.org/licenses/gpl-3.0)"></a>';
+        badgesURL='<a href= "(https://www.gnu.org/licenses/gpl-3.0)">Open Source GPL-3</a>';
         break;
         default:
           badgesURL='';

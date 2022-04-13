@@ -33,4 +33,4 @@ You can view more of my projects at https://github.com/smturner.
 ## License
 Copyright (c) 2022 Sarah Turner
 
-This application is licensed by GNU-3. For more information on this license, visit (https://www.gnu.org/licenses/gpl-3.0).  
+This application is licensed by GNU-3. For more information on this license, visit <a href= "(https://www.gnu.org/licenses/gpl-3.0)">Open Source gpl-3</a>.    
