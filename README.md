@@ -1,6 +1,6 @@
  # README Generator  
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+[![License: GPL v3](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 ## Description
 This project was created to easily generate a high-quality README.md file. Using the command-line application that runs with node.js, this app will dynamically generate a README.md file based on user input about your project.   
@@ -21,7 +21,7 @@ This application requires file system to generate the new readme file and for th
 ## Usage
 Once this app is open, and you have installed the required packages, open up your integrated terminal and type node index.js. You will be prompted through questions to answer about your project. If you successfully answered all of the questions you will see 'Creating a new README.md file!' and a completed README.md file will now be in your develop folder.  
 
-![ReadMe Gif](/develop/utils/READMEGenerator.gif)
+![ReadMe Gif](./develop/utils/READMEGenerator.gif)
 
 Or you can view the video here: <a href= "https://drive.google.com/file/d/1YCMTSfqpxSXkJn-dobnXGZQzGiM1APA4/view"> Screencastify Link </a>
 
@@ -37,4 +37,4 @@ You can view more of my projects at https://github.com/smturner.
 ## License
 Copyright (c) 2022 Sarah Turner
 
-This application is licensed by GNU-3. For more information on this license, visit (https://www.gnu.org/licenses/gpl-3.0).  
+This application is licensed by MIT. For more information on this license, visit <a href= "https://opensource.org/licenses/MIT"> Open Source MIT</a>.   
