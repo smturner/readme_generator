@@ -1,9 +1,9 @@
- # d  
+ # s  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 
 ## Description
-f  
+s  
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,20 +14,21 @@ f
 - [License](#license)  
 
 ## Installation
-d  
+s  
 
 ## Usage
-d  
+s  
 
 ## Contributing
-f  
+s  
 
 ## Tests
-f  
+s  
 
 ## Questions  
-If you have any questions about this project, please contact me directly at f. You can view more of my projects at https://github.com/d.
+If you have any questions about this project, please contact me directly at s. You can view more of my projects at https://github.com/s.
 
 ## License
 Copyright (c) 2022 Sarah Turner
-MIT for more information, visit (https://opensource.org/licenses/MIT)  
+
+This application is licensed by GNU-3. For more information, visit (https://www.gnu.org/licenses/gpl-3.0).  

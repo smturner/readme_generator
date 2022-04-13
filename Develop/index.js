@@ -50,7 +50,7 @@ inquirer
         type: 'list',
         name: 'license',
         message: 'What kind of license should your project have?',
-        choices: [ 'MIT','Apache', 'GNU-GPL-3', 'none' ],
+        choices: [ 'MIT','Apache', 'GNU-3', 'none' ],
     },
 ])
 

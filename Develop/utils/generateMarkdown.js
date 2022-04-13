@@ -1,16 +1,14 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Function that returns badges of each license
 function renderLicenseBadge(license) {
  let badges;
  switch (license) {
    case 'MIT': 
     badges= "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-  //  licenseURL: "https://opensource.org/licenses/MIT"
     break;
     case 'Apache' :
       badges= '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
       break;
-    case 'GNU-GPL-3':
+    case 'GNU-3':
       badges="[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
       break;
     default:
@@ -19,20 +17,24 @@ function renderLicenseBadge(license) {
    return badges;
   }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//Function that returns license links
 function renderLicenseLink(license) {
   let badgesURL;
   switch(license) {
     case 'MIT' :
-      badgesURL= "(https://opensource.org/licenses/MIT)"
+      badgesURL= "(https://opensource.org/licenses/MIT)";
+      break;
+      case 'Apache' :
+        badgesURL= "(https://opensource.org/licenses/Apache-2.0)";
+      break;
+      case 'GNU-3' :
+        badgesURL="(https://www.gnu.org/licenses/gpl-3.0)";
+        break;
+        default:
+          badgesURL='';
   }
   return badgesURL
 }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // function that creates all the layout for the README file
 const generateMarkdown = ({title, license, description, installation, usage, contributing, github, tests, email}) =>   {
@@ -70,7 +72,8 @@ If you have any questions about this project, please contact me directly at ${em
 
 ## License
 Copyright (c) 2022 Sarah Turner
-${license} for more information, visit ${badgesURL}  `
+
+This application is licensed by ${license}. For more information, visit ${badgesURL}.  `
 
 return readMePageContent
 }
